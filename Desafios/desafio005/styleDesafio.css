@@ -1,0 +1,14 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;       
+}
+body
+{
+    background-color: rgb(235, 235, 235);
+    background-repeat: no-repeat;   
+    background-position: center;    
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right:650px;
+    padding-bottom:10px;    
+
+}
