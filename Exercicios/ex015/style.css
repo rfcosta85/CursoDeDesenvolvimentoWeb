@@ -3,7 +3,9 @@
 body
 {
     background-color: lightgoldenrodyellow;
+    background-image: linear-gradient(90deg, yellow, red);
     color: chocolate;
+    color: black;
     font-size: 12pt;
     font-family: Arial;
 }
