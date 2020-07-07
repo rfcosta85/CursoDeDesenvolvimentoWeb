@@ -14,18 +14,18 @@
 }
 body 
 {
-    background-color: var(--cor1) ;
+    background-color: var(--cor1);
     font-family: var(--fonte0);
     color: var(--cor0);
     
 }
 
 header
-{
-    background-color: var(--cor3);    
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.466) ; 
-    padding-top: 30px; 
-    text-align: center;    
+{        
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.466); 
+    padding-top: 30px;     
+    text-align: center;     
+    background-image: linear-gradient(180deg,var(--cor1),var(--cor2),var(--cor3),var(--cor4),var(--cor5));   
 }
 
 nav 
@@ -34,13 +34,15 @@ nav
     text-shadow: 2px 2px 0px rgba(0,0,0,0.466);
     padding: 6px;
     text-align: left;    
-    padding-left: 12px;
+    padding-left: 12px; 
     
 }
+
 a
 {
-    color: var(--cor0);
+    color: rgba(255, 255, 255, 0.959);
     text-decoration: none;
+    line-height: 30px;   
     
 }
 
@@ -50,7 +52,7 @@ main
     max-width: 800px;
     background-color: white;     
     margin-left: 300px;
-    padding-bottom: 400px;
+    padding-bottom: 25px;
     margin-top: -15px;
     
 }
@@ -58,18 +60,53 @@ main
 p.header
 {
     text-align: center;
+    color: var(--cor0);
+}
+
+h1.header
+{
+    color: rgba(255, 255, 255, 0.959);
+    background-color: var(--cor2);
 }
 
 h1#main
 {    
     padding-top: 20px;
-    padding-left:20px;    
+    padding-left:20px;
+    background-color: unset;
+       
     @font-face 
     {
         font-family:'android';
         src: url('fonts/idroid.otf');
     }
     
+}
+p 
+{
+    text-align: justify;
+    text-indent: 15px;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: var(--cor3);
+}
+
+h1 
+{
+    padding-left: 25px;
+    background-color: var(--cor0);
+    color: var(--cor5);
+}
+
+h2
+{
+    background-color: var(--cor3);
+}
+
+img#dandroids
+{    
+    width: 750px;
+    padding-left: 18px;
 }
 
 
