@@ -6,20 +6,29 @@
     <title>Curiosidades de Tecnologia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'idroid';
+            src: url('fonts/idroid.otf');
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');        
+     
+    </style>
 </head>
 <body>
-
+    
     <header>
         <h1 class="header">CURIOSIDADES DE TECNOLOGIA</h1>
 
         <p class="header">Tudo aquilo que você sempre quis saber sobre o mundo Tech <br> em um único lugar</p> 
         
         <nav>
-            <a href="http://" target="_blank" rel="next">Home</a>
-            <a href="http://" target="_blank" rel="next">Notícias</a>
-            <a href="http://" target="_blank" rel="next">Curiosidades</a>
-            <a href="http://" target="_blank" rel="next">Fale Conosco</a>
-        </nav>
+            <a href="http://" target="_blank" rel="next">Home &nbsp;</a>
+            <a href="http://" target="_blank" rel="next">Notícias &nbsp;</a>
+            <a href="http://" target="_blank" rel="next">Curiosidades &nbsp;</a>
+            <a href="http://" target="_blank" rel="next">Fale Conosco &nbsp;</a>
+        </nav>        
 
     </header>
 
@@ -43,11 +52,11 @@
 
             <p>A ideia de ter um mascote foi amadurecido e a missão foi passada para um profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-            <img src="img/irina-blok.jpg" alt="Irina Block - ilustradora Google">
+            <img id="irina" src="img/irina-blok.jpg" alt="Irina Block - ilustradora Google">
 
             <p> A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Adroid.</p>
 
-            <img src="img/bugdroid.png" alt="Bubdroid">
+            <img id="bugdroid" src="img/bugdroid.png" alt="Bubdroid">
 
             <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: Simples, limpo, objetivo.</p>
 
@@ -63,7 +72,7 @@
 
             <h2>Quer aprender mais?</h2>
 
-            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+            <p class="aside">Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
 
             <ul>
                 <li>1.5 - Cupcake</li>
@@ -82,14 +91,16 @@
                 <li>9.0 - Pie</li>
             </ul>
 
-            <p>Infelizmente, o android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+            <p class="aside">Infelizmente, o android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
 
-            <p>Acesse aqui o site <a href="https://www.androidauthority.com/history-android-os-name-789433/">Android History </a> para conhecer a sequência das versões "adocicada" e o que cada uma trouxe para o sistema Android.</p>
+            <p class="aside">Acesse aqui o site <a class="aside" href="https://www.androidauthority.com/history-android-os-name-789433/" target="_blank">Android History </a> &#x1F517 para conhecer a sequência das versões "adocicada" e o que cada uma trouxe para o sistema Android.</p>
 
         </aside>
         <p>Então é isso! Espero que você tenha gostado de nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
     </main>    
-    <footer>Site criado por Rodrigo Costa para o Curso de Desenvolvimento Web - <a href="https://www.cursoemvideo.com/">Curso em Vídeo</a> - </footer>
+    <footer>
+        <p id="footer">Site criado por <a href="https://github.com/rfcosta85" target="_blank">Rodrigo Costa</a> para o Curso de Desenvolvimento Web - <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a> -</p>
+    </footer>
     
 </body>
 </html>

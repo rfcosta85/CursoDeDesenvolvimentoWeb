@@ -8,16 +8,15 @@
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-    --fonte0: Arial, Helvetica, sans-serif;
-    --fonte1: 'Bebas Neue', cursive;
+    --fonte0: Arial, Helvetica, sans-serif;    
+    --fonte1: 'Bebas Neue', cursive;    
     --fonte2: 'idroid', sans-serif;
 }
 body 
 {
     background-color: var(--cor1);
     font-family: var(--fonte0);
-    color: var(--cor0);
-    
+    color: var(--cor4);    
 }
 
 header
@@ -25,7 +24,10 @@ header
     text-shadow: 2px 2px 0px rgba(0,0,0,0.466); 
     padding-top: 30px;     
     text-align: center;     
-    background-image: linear-gradient(180deg,var(--cor1),var(--cor2),var(--cor3),var(--cor4),var(--cor5));   
+    background-image: linear-gradient(180deg,var(--cor1),var(--cor2),var(--cor3),var(--cor4),var(--cor5)); 
+    margin-left: -8px; 
+    margin-right: -7px; 
+    
 }
 
 nav 
@@ -35,6 +37,7 @@ nav
     padding: 6px;
     text-align: left;    
     padding-left: 12px; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.527);
     
 }
 
@@ -53,7 +56,8 @@ main
     background-color: white;     
     margin-left: 300px;
     padding-bottom: 25px;
-    margin-top: -15px;
+    margin-top: -20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.527);
     
 }
 
@@ -67,40 +71,42 @@ h1.header
 {
     color: rgba(255, 255, 255, 0.959);
     background-color: var(--cor2);
+    font-family: var(--fonte1);
 }
 
 h1#main
 {    
     padding-top: 20px;
     padding-left:20px;
-    background-color: unset;
-       
-    @font-face 
-    {
-        font-family:'android';
-        src: url('fonts/idroid.otf');
-    }
-    
+    background-color: white;
+    color: var(--cor4);
+    font-family: var(--fonte2);    
 }
+
 p 
 {
     text-align: justify;
     text-indent: 15px;
     padding-right: 15px;
     padding-left: 10px;
-    color: var(--cor3);
+    color: var(--cor4);
 }
 
-h1 
+h1.article 
 {
     padding-left: 25px;
     background-color: var(--cor0);
+    background-image: linear-gradient(20deg,var(--cor0), white);
     color: var(--cor5);
+    font-family: var(--fonte2);
 }
 
 h2
 {
     background-color: var(--cor3);
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.959);
+    border-radius: 5px;
 }
 
 img#dandroids
@@ -109,5 +115,83 @@ img#dandroids
     padding-left: 18px;
 }
 
+img#irina
+{
+    width: 750px;
+    padding-left: 25.2px;    
+}
 
+img#bugdroid
+{
+  padding-left: 230px;
+}
+
+div.video
+{
+    position: relative;
+    background-color: var(--cor4);
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -8px;
+    padding-bottom: 40%; 
+    
+}
+
+div.video > iframe
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul
+{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    color: var(--cor4);
+}
+aside 
+{
+    background-color: var(--cor0);
+    width: 760px;
+    height: 375px;
+    margin-left: 20px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+
+}
+
+p.aside
+{
+    color: var(--cor4);
+}
+
+a.aside
+{
+    color: var(--cor5);
+
+}
+
+footer 
+{
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: var(--cor5);
+}
+
+p#footer
+{
+    margin-left: 370px;
+    color: var(--cor0);
+}
+
+a:hover
+{
+   text-decoration: underline;
+   color: rgba(112, 133, 248, 0.877);
+}
 
