@@ -1,26 +1,118 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    color: rgb(49, 49, 45);
-    list-style-position: inside;
-    margin-left: 5px;
-    margin-top: 15px;
-    margin-block-end: 10px;
+    
+    font-family: 'Press Start 2P', cursive;  
     
 }
 
-    body
-    {        
-        background-repeat: no-repeat;        
-        background-size: 1150px;                
-        background-position-x:395px;
-        background-position-y:20px;
-        background-color: rgb(236, 252, 149);              
-        background-image: url(https://tinyurl.com/ycoaucx8);      
-       
-    }
+article
+{
+    
+    max-width: 1800px;
+    min-width: 250px;
+    width: 30%;    
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: left;
+    margin-top: -2.2%;
+    height: 580px;
+    margin-left: -0.8%;
+    background-attachment: fixed;  
+    
+}
 
+ul#global
+{      
+    
+    list-style-position: inside;    
+    
+}
+
+li.consoles
+{
+    
+    color: rgba(49, 49, 45, 0.877);
+    padding-top: 5%;
+    font-size: 16px;
+    
+
+}
+
+li.mainTitle
+{
+    color: rgba(105, 105, 105, 0.651);
+    font-size: 14px;
+    padding-top: 8px;
+
+}
+
+li.gamesTitles
+{
+    
+    font-size: 10px;
+    padding-top: 8px;
+    color: rgba(0, 47, 255, 0.788);
+
+}
+
+ol
+{
+   
+    padding-top: 2%;
+
+}
+
+h1
+{   
+  
+   padding-top: 15%;
+   padding-left: 8%;  
+   font-size: 20px;  
+   
+}
+
+body
+{        
+    
+    background-repeat: no-repeat;              
+    background-color: rgb(236, 252, 149);              
+    background-image: url(https://tinyurl.com/ycoaucx8);  
+    background-position: center;
+    background-size: cover;  
+    background-attachment: fixed;    
+       
+}
+
+footer
+{
+    
+    background-color: rgba(255, 255, 255, 0.61);
+    margin-left: -1%;
+    margin-right: -0.5%;
+    height: 25px; 
+
+}
+
+p#footer
+{
+    
+    text-align: center;
+    padding-top: 6px;
+
+}
+
+a
+{
+    
+    text-decoration:none;
+
+}
+
+a:hover
+{
+    
+    text-decoration: underline;
+    color: brown;
+
+}
     
     
 
