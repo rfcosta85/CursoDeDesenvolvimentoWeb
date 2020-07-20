@@ -1,0 +1,18 @@
+@media only screen and (min-width: 769px)
+{
+    body
+    {
+         background-image: url('../img/espaco.jpg');
+         background-repeat: no-repeat;
+         background-position: center;
+         max-width: 1920px;         
+    }
+
+    img
+    {
+        margin-top: 5%;
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    
+}
