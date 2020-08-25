@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes Capítulo 22</title>
+    <style>
+
+        iframe
+        {
+            
+            width: 500px;
+            height: 500px;
+            border: 5px solid black;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px #0000006c;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Teste de iframe</h1>
+
+    <p>
+
+        Acesse o site 
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" width="500" height="500" scrolling="auto" [ Seu navegador não suporta iframes ]></iframe>
+        e faça muitos cursos!
+
+    </p>
+
+    <iframe src="#" width="600" height="400">
+    
+        <p>Seu navegador não é compatível com a exibição desse recurso.</p>
+    
+    </iframe>
+
+    <iframe srcdoc="<h2>Teste de título</h2><p>Esse documento foi gerado dinamicamente</p>" frameborder="0"></iframe>
+
+    <br>
+
+    <iframe src="testes_capitulo22.html" name="quadro">
+
+        <p>Seu navegador não é compatível com a exibição desse recurso.</p>
+
+    </iframe>
+
+    <a href="#" target="quadro">Abrir segundo site</a>
+
+    <iframe src="https://www.cursoemvideo.com" frameborder="0" width="400" height="400" scrolling="yes" sandbox="sandbox"></iframe>
+
+    
+</body>
+</html>
