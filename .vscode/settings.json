@@ -3,16 +3,34 @@
         "iaceito",
         "icor",
         "idata",
+        "idesc",
+        "idpreco",
         "ifoto",
         "iframes",
         "ihora",
         "iidade",
         "imail",
         "imes",
+        "imod",
+        "ipreco",
+        "iprof",
+        "iquant",
         "isat",
         "isenha",
         "isexfem",
         "isexmasc",
-        "itel"
+        "itel",
+        "itot",
+        "lstprof",
+        "optiongroup",
+        "preco",
+        "sdxys",
+        "sdxys u",
+        "sgxn",
+        "sgxys",
+        "u"
+    ],
+    "cSpell.words": [
+        "iphone"
     ]
 }

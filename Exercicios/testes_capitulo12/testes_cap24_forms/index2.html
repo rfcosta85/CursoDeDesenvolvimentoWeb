@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms part 2</title>
+
+</head>
+<body>
+
+    <h1>Another Form! Don't Cry! LOL</h1>
+
+    <form action="cadastro.php" method="get" oninput="itot.value = Number(ipreco.value) * Number(iquant.value)">
+
+        <p><label for="iprod">Produto:</label>
+        <input type="text" name="prod" id="iprod"></p>
+        <p><label for="ipreco">Preço: R$</label>
+        <input type="number" name="preco" id="idpreco"></p>
+        <p><label for="iquant">Quantidade:</label>
+        <input type="number" name="quant" id="iquant"></p>
+        <p><label for="itot">Total: R$</label></p>
+        <output name="tot" id="itot">0</output>
+        <p><input type="submit" value="Enviar"></p>
+
+    </form>
+    
+</body>
+</html>
