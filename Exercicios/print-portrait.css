@@ -1,0 +1,14 @@
+/* Impressoras */
+
+@media print
+{
+
+    body 
+    {
+
+        background-color: white;
+        color: black;
+
+    }
+
+}
